@@ -1,5 +1,5 @@
 # Introduction
-Python-Image-Converter is a tool which helps convert images to any format. e.g. from jpg to png etc. Follow the instructions provided in usage to use this tool.
+Pyture is a tool which helps convert images to any format. e.g. from jpg to png etc. Follow the instructions provided in usage to use this tool.
 
 # Inspiration
 It is really time consuming to access websites which help convert images from one format to another. This is where Python-Image-Converter steps in. 
@@ -14,6 +14,3 @@ Without internet you can now convert your images into any format you like from t
 
 # Contributions
 Chaitenya Gupta
-
-# License
-MIT**
