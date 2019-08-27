@@ -14,14 +14,14 @@ def fileConverter(originalFormat, newFormat):
 # The following function calls fileConverter and also deletes the original
 # file if needed
 def start(originalFormat, newFormat, ans = 'no'):
-    print('Welcome to Python-Image-Converter!')
+    print('Welcome to Pyture - Python-Image-Converter!')
     fileConverter(originalFormat, newFormat)
     print('Your file is converted from ' + originalFormat + ' to ' + newFormat)
-
+    
     if ans in ['Yes', 'yes', '  Y', 'y']:
         fileDeletion(originalFormat)
         print('Deleted!')
-        print('Thank you for using Python-Image-Coverter')
+        print('Thank you for using Pyture')
 
 # Function called if original file needs to be deleted
 def fileDeletion(originalFormat):
@@ -30,32 +30,32 @@ def fileDeletion(originalFormat):
 
 # Function which acts as a CLI for this tool
 def main():
-    parser = argparse.ArgumentParser(prog='Python-Image-Converter',
+    parser = argparse.ArgumentParser(prog='Pyture',
                                      usage='''
-                                    Usage:
-                                    Enter the command in ther following format:
-                                    python3 image_converter.py [Original extension. (e.g. png)] [New extension. (e.g. jpg)] [Yes/No]
-
-                                    e.g. python3 image_converter.py png jpg --del yes
-                                    ''',
+                                         Usage:
+                                         Enter the command in ther following format:
+                                         python3 image_converter.py [Original extension. (e.g. png)] [New extension. (e.g. jpg)] [Yes/No]
+                                         
+                                         e.g. python3 image_converter.py png jpg --del yes
+                                         ''',
                                      description='''
-                                    -----------------------------------------------
-                                    Description:
-                                    This tool will convert your image files
-                                    -----------------------------------------------
-                                    ''',
+                                         -----------------------------------------------
+                                         Description:
+                                         This tool will convert your image files
+                                         -----------------------------------------------
+                                         ''',
                                      formatter_class=argparse.RawDescriptionHelpFormatter,
                                      add_help=True
                                      )
-
-    parser.add_argument("original", type=str, help="Enter original extension. (e.g. png)", metavar="Original Extension")
-    parser.add_argument("new", type=str, help="Enter new extension. (e.g. jpg)", metavar="New Extension")
-    parser.add_argument("-delete", "-d", type=str,
-                        help="Optional: Enter yes to delete original file OR no to keep original file", default='no',
-                        required=False)
-
-    arg = parser.parse_args()
-    start(arg.original, arg.new, arg.delete)
+        
+                                     parser.add_argument("original", type=str, help="Enter original extension. (e.g. png)", metavar="Original Extension")
+                                     parser.add_argument("new", type=str, help="Enter new extension. (e.g. jpg)", metavar="New Extension")
+                                     parser.add_argument("-delete", "-d", type=str,
+                                                         help="Optional: Enter yes to delete original file OR no to keep original file", default='no',
+                                                         required=False)
+                                     
+                                     arg = parser.parse_args()
+                                     start(arg.original, arg.new, arg.delete)
 
 if __name__ == '__main__':
     main()
