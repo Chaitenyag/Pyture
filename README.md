@@ -14,6 +14,3 @@ Without internet you can now convert your images into any format you like from t
 
 # Contributions
 Chaitenya Gupta
-
-# License
-MIT**
