@@ -8,7 +8,7 @@ Without internet you can now convert your images into any format you like from t
 # Requirements
 - Pillow
 - argparse
-The above dependencies can be easily installed using the steps mentioned in usage.
+- The above dependencies can be easily installed using the steps mentioned in usage.
 
 # Usage
 - First, you need to open up terminal and type the command ./setup.sh (If there is a message about permissions, you would the need to type the command chmod 777 setup.sh)
