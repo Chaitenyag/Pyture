@@ -11,11 +11,11 @@ Without internet you can now convert your images into any format you like from t
 - The above dependencies can be easily installed using the steps mentioned in usage. (They have been provided in setup.sh)
 
 # Usage
-- First, you need to open up terminal and type the command './setup.sh' (If there is a message about permissions, you would the need to type the command 'chmod 777 setup.sh')
-- Now, you can simply type 'python3 image_converter.py jpg png -delete yes/no'
+- First, you need to open up terminal and type the command `./setup.sh` (If there is a message about permissions, you would the need to type the command `chmod 777 setup.sh`)
+- Now, you can simply type `python3 image_converter.py jpg png -delete yes/no`
 - Hit enter and all jpg will now be converted to png and the jpg's might be deleted depending on the argument yes or no.
 - This works for all formats and you can now convert your images into pdf as well.
-- NOTE: -delete is optional and is 'no' bt default.
+- NOTE: -delete is optional and is `no` bt default.
 
 # Contributions
 Chaitenya Gupta
