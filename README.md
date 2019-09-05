@@ -16,7 +16,7 @@ Without internet you can now convert your images into any format you like using 
 - Now, you can simply type `python3 image_converter.py jpg png -delete yes/no`
 - Hit enter and all jpg will now be converted to png and the jpg's might be deleted depending on the argument yes or no.
 - This works for all formats and you can now convert your images into pdf as well.
-- NOTE: -delete is optional and is `no` is default.
+- NOTE: -delete is optional and is `no` by default.
 
 # Contributions
 Chaitenya Gupta
