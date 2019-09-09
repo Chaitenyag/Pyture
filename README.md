@@ -13,10 +13,17 @@ Without internet you can now convert your images into any format you like using 
 # Usage
 - First, you need to open up terminal and clone this repository using the command 'git clone https://github.com/Chaitenyag/Pyture'  
 - Then `cd` into the repository and type the command `./setup.sh` (If there is a message about permissions, you would the need to type the command `chmod 777 setup.sh`)
-- Now, you can simply type `python3 image_converter.py jpg png -delete yes/no`
+
+1) For converting images by changing format:-
+- You can simply type `python3 image_converter.py jpg png -delete yes/no`
 - Hit enter and all jpg will now be converted to png and the jpg's might be deleted depending on the argument yes or no.
 - This works for all formats and you can now convert your images into pdf as well.
 - NOTE: -delete is optional and is `no` by default.
+
+2) For resizing images:-
+- You can simply type `python3 image_converter.py flower.jpg 500 500`
+- Hit enter and image would be resized.
+- This works for all formats.
 
 # Contributions
 Chaitenya Gupta
